@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chatbot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/chatbot_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="n">
+        <activity android:name=".FullscreenActivity"/>
+        <activity android:name=".feedback" />
+        <activity android:name=".changePassword" />
+        <activity android:name=".checkStudentAttendance" />
+        <activity android:name=".checkAttendance" />
+        <activity android:name=".htmlFileView" />
+        <activity android:name=".attendanceList" />
+        <activity android:name=".takeAttendance" />
+        <activity android:name=".facultyWelcomePage" />
+        <activity android:name=".studentWelcomePage" />
+        <activity android:name=".studentLogin" />
+        <activity android:name=".studentsignup" />
+        <activity android:name=".registration" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".splashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

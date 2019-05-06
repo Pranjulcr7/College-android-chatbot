@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Section">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="Program">
+        <item>BTECH</item>
+        <item>BDES</item>
+    </string-array>
+    <string-array name="Department">
+        <item>CSE</item>
+        <item>EEE</item>
+    </string-array>
+    <string-array name="Batch">
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+    <string-array name="CourseCodeArray">
+        <item>CSC311A</item>
+        <item>CSC310A</item>
+        <item>CSE301A</item>
+        <item>CSC309A</item>
+    </string-array>
+    <string-array name="CourseNameArray">
+        <item>Database Management System</item>
+        <item>Compiler</item>
+        <item>Distributed System</item>
+        <item>Computer Graphics</item>
+    </string-array>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:src="@drawable/wallpaper2"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fitsSystemWindows="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ramaiah" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp">
+        <TextView
+            android:id="@+id/stdId"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student id"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp">
+        <TextView
+            android:id="@+id/stdFname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="First Name"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp">
+        <TextView
+            android:id="@+id/stdLname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Last Name"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/listProg"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/presentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="PRESENT"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:hapticFeedbackEnabled="true"
+        android:background="#7F7FFF00"
+        android:layout_marginBottom="25dp"
+        android:padding="12dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/absentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="ABSENT"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:hapticFeedbackEnabled="true"
+        android:background="#7FFF0000"
+        android:layout_marginBottom="25dp"
+        android:padding="12dp"/>
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

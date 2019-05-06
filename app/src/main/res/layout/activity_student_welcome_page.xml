@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:src="@drawable/wallpaper2"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fitsSystemWindows="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ramaiah" />
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/check_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:background="@drawable/button_welcome_page"
+        android:text="Check Attendance"
+        android:layout_marginTop="24dp"
+        android:textColor="	#FF0000"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/chatbot_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_welcome_page"
+        android:text="Chatbot"
+        android:layout_marginTop="24dp"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="	#FF0000"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/std_chngPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:background="@drawable/button_welcome_page"
+        android:text="Change Password"
+        android:layout_marginTop="24dp"
+        android:textColor="	#FF0000"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/feed_btnS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:background="@drawable/button_welcome_page"
+        android:text="Feedback"
+        android:layout_marginTop="24dp"
+        android:textColor="	#FF0000"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/logout_std"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        android:background="@drawable/button_welcome_page"
+        android:text="Logout"
+        android:layout_marginTop="24dp"
+        android:textColor="	#FF0000"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"/>
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

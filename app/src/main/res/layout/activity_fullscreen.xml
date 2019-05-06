@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:src="@drawable/wallpaper2"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:id="@+id/iconR"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/ramaiah" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_student"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/stud"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginBottom="30dp"
+            android:padding="1dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_faculty"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/teach"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginBottom="30dp"
+            android:padding="1dp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_guest"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/guest"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginBottom="30dp"
+            android:onClick="guestLogin"
+            android:padding="1dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
