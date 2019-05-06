@@ -1,9 +1,9 @@
 
         <?php
         define('hostname', 'localhost');
-        define('user', 'pranjul');
-        define('password', 'pranjul1234');
-        define('databaseName', 'pranjulDatabase');
+        define('user', 'username');
+        define('password', 'pass');
+        define('databaseName', 'testDatabase');
         
         $connect = new mysqli(hostname, user, password, databaseName);
         
